@@ -1,0 +1,76 @@
+            .main{
+                height: 550px;
+                display: block;
+                text-align:center;
+                width: 320px;
+                margin: auto auto;
+                margin-top: 60px;
+                border-radius:12px;
+                box-shadow:0 0 10px #333;
+                border:3px solid white;
+                background-color: white;
+                opacity: 90;
+            }
+
+            form {
+                background:fff;
+                padding-top:0px;
+                padding-bottom:50px;
+                padding-left:50px;
+                padding-right:50px;
+            }
+
+            form p {
+                margin:0;
+                text-align:left;
+            }
+            h2{
+                color: blue;
+                font-weight: bold;
+                font-family:Arial Black; 
+            }
+
+            label {
+                display:inline-block;
+                color:#5e5e5e;
+                font-size:15px;
+                font-weight:bold;
+                text-decoration:none;
+                text-shadow:1px 1px 0px #fff;
+            }
+
+            input[type="text"], input[type="password"],input[type="email"] {
+                border-color:#ecf3fb;
+                border-right:1px solid #CCCCCC;
+                border-style:solid;
+                border-width:1px;
+                font-size:15px;
+                margin:0 0 15px;
+                padding:5px;
+                width:200px;
+            }
+
+            input[type="text"]:focus, input[type="password"]:focus ,input[type="email"]:focus
+            {
+                outline: none;
+                border: 1px solid #AF6527;
+                width: 16em;
+            }
+            input[type="submit"], input[type="button"], #a,input[type="reset"]
+            {
+                
+                background-color:#ededed;
+                -moz-border-radius:7px;
+                -webkit-border-radius:7px;
+                border-radius:7px;
+                border:1px solid #c4c4c4;
+                display:inline-block;
+                color:#5e5e5e;
+                font-size:15px;
+                font-weight:bold;
+                padding:6px 20px;
+                text-decoration:none;
+                text-shadow:1px 1px 0px #ffffff;
+            }
+            
+        

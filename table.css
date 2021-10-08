@@ -1,0 +1,34 @@
+table 
+{
+	border-collapse: collapse;
+	width: auto;
+	text-align: left;
+	
+}
+th{
+	background:#f2f2f2;
+	padding: 5px;
+	border-color: black;
+}
+td{
+	padding:auto;
+}
+/*tr:hover
+{
+	background-color:grey;
+	border-color: black;
+
+}
+*/
+tr:nth-child(even) 
+{
+	background-color:#dddddd;
+
+
+}
+/*tr:nth-child(even):hover
+{
+	background-color: grey;
+	border-color: black;
+	
+}*/

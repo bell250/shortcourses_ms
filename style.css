@@ -1,0 +1,139 @@
+
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.m{
+    width: 900px;
+}
+form{
+border: 6px solid wheat;
+    border-radius: 4px;
+    
+}
+form p{
+    font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    border-radius: 7px;
+    height: 2em;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+	background: #F0EAD6;/*url("images/background.png") repeat;*/
+}
+#main-head{
+background: #2A4B7C;
+color: white;
+}
+
+
+#main-head h1{
+	text-align: center;
+	padding: 20px;
+	text-transform: capitalize;
+	letter-spacing: 0.01em;
+	font-family:serif arial;
+}
+.a1 {
+ 	width: 98.2%;
+ 	border: 2px solid #000075;
+}
+.container{
+	position: sticky;
+	top: 0px;
+}
+#nav1{
+	width: 100%;
+	background:#264E36;
+	height: 50px;
+	margin-left:0px;
+  box-shadow:0 0 10px #333;
+}
+nav ul li {
+	display: inline;
+
+
+}
+nav ul li a{
+	margin-top:0px;
+ 	color: white;
+ 	font-weight: bold; 
+ 	display: inline-block;
+ 	padding: 15px;
+ 	width: 150px;
+ 	text-align: center;
+ 	text-decoration: none;
+}
+ nav ul li a:hover {
+ 	color: white;
+ 	background-color: #008000;
+ }
+  nav ul li a:active {
+ 	background-color: #808000;
+ }
+ nav ul li a:active {
+ 	color: #008080;
+ 	background-color: #FFFFFF;
+ }
+ 
+ iframe{border: 1px solid grey ;
+  margin-left: 0px;
+  background-color: white;
+  background: url("background.png") repeat;
+ }
+
+ .footers {
+  position: relative;
+ 	width: 100%;
+ 	color: white;
+ 	font-weight: bold;
+ 	font-size: 16px;
+ 	min-height: 200px;
+ 	background-color:#669999;
+  opacity: ;
+}
+.footers .copy{
+  text-align: center;
+}
+.technologies{
+  padding: 20px;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    gap:44px;
+  }
+  .forms{
+    display: none;
+  }
+  @media screen and (max-width: 800px) {
+  img { 
+  margin-left: 0px;  
+    width: 100%;
+    padding: 0;
+  }
+  .technologies{
+  padding: 20px;
+    display: grid;
+    grid-template-columns:100%;
+    gap:5px;
+  }
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  iframe { 
+  margin-left: 0px;  
+    width: 100%;
+    padding: 0;
+  }
+  .social{
+    display: none;
+  }
+  .right{
+    display: none;
+  }
+}
